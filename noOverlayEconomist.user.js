@@ -28,7 +28,7 @@ function closeAd() {
     }
 };
 
-//closeAd(); // to early, need to call the function on window.load
+//closeAd(); // too early, need to call the function on window.load
 
 window.addEventListener('load', closeAd, false);
 
